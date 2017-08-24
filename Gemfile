@@ -39,6 +39,10 @@ gem 'erb2haml'
 
 gem 'byebug'
 
+gem 'bootstrap-sass'
+
+gem 'jquery-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
