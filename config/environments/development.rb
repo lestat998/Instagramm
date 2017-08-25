@@ -45,7 +45,7 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  # Raises error for missing translations
+  Paperclip.options[:command_path] = "/usr/bin/convert"
   # config.action_view.raise_on_missing_translations = true
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # Use an evented file watcher to asynchronously detect changes in source code,
